@@ -6,3 +6,10 @@
 4. ``python menage.py startapp nome_do_app`` -> Criando um novo app
 5. ``python manage.py migrate`` -> realiza as migrações(ativa) do projeto.
 6. ``python manage.py createsuperuser`` -> Criar um novo usuário.
+7. ``python manage.py changepassword`` nomedousuario -> Altera a senha, caso você esqueça.
+8. ``python manage.py makemigrations`` -> Cria/gera um novo pacote de migração (util para novo app e alteração de BD)
+
+GET
+POST
+PUT
+DELETE
