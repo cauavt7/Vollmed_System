@@ -18,7 +18,6 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path ,include
 import sistema.urls
-import sistema.Views
 
 
 
@@ -30,8 +29,8 @@ import sistema.Views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-   path('',include(sistema.urls.py)),# preciso chamar uma url do app sistema
-    path('',include(sistema.Views.py)),
+   path('',include(sistema.urls)),# preciso chamar uma url do app sistema
+    #path('',include(sistema.Views.py)),
 ]
 
 #MVT(Models,views,templates)   
