@@ -5,7 +5,7 @@ from sistema.models import Paciente
 # Create your views here.
 
 #pagina responsavel pela area medico
-def  index(request):
+def  index_paciente(request):
      return render(
         request,
         'index.html'

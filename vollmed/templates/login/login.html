@@ -1,15 +1,10 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login · Consulta.me</title>
-  <link rel="icon" href="../assets/favicon.png" type="image/png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700;800&display=swap">
-  <link rel="stylesheet" href="../style.css">
+{% include "partials/_head.html" %}
 </head>
 
 <body>
@@ -46,10 +41,9 @@
 
   <footer class="footer">
     <div class="container footer-container">
-      <img src="../assets/logo-aluno.svg" alt="Logo Aluno" width="203" height="64">
+      <img src= "{% static'assets/logo-aluno.svg'%}" alt="Logo Aluno" width="203" height="64">
       <p>2025 © Desenvolvido por Aluno | Projeto fictício sem fins comerciais.</p>
     </div>
   </footer>
-</body>
-
+ </body>
 </html>
