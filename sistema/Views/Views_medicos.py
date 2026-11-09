@@ -5,5 +5,5 @@ from django.http import HttpResponse
 
 #pagina responsavel pela area medico
 def medico_view(request):
-    print('Página funcionando')
+    print('Página Rodando')
     return HttpResponse('Página inicial do Medico')
